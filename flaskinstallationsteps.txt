@@ -1,0 +1,23 @@
+Flask installation steps in Ubuntu16.04
+
+step 1) Install Virtual Environment by following command:  
+	sudo apt-get install python-virtualenv
+
+step 2) Create a virtual Environment by following command:
+	virtualenv FlaskProjectdemo                                          (FlaskProjectdemo is virtual environment)
+
+step 3) Move inside your virtual environment , once installed it consist of utilities and libraries required for python program execution:
+	cd FlaskProjectdemo
+
+step 4) To check the utilities and libraries directories inside the virtual environment use following command:
+	ls
+
+step 5) create a new project named flaskproject1 inside virtual environment:
+	mkdir flaskproject1
+	cd flaskproject1
+
+step 6) To activate the virtual Environment:
+	source ./bin/activate
+
+step 7) Now u install Flask in your virtual environment:
+	pip install flask
